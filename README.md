@@ -59,9 +59,9 @@ ventas_api/
 ├── .github/
 │   └── workflows/
 │       └── pipeline.yml            ← Parte 2
-├── docs/
-│   ├── pipeline_explicado.md       ← Parte 2
-│   └── buenas_practicas.md         ← Parte 2
+└── docs/
+    ├── pipeline_explicado.md       ← Parte 2
+    └── buenas_practicas.md         ← Parte 2
 ```
 
 ### Parte 1 — Aplicación y Contenerización (`parte1_aplicacion_docker.zip`)
