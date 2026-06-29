@@ -21,11 +21,12 @@ jobs:
 
       - name: Ejecutar Pruebas
         run: |
-          pytest
+          PYTHONPATH=. pytest
 
       - name: Validar Código
         run: |
           python -m py_compile app.py
+
 
   build:
     needs: test
