@@ -45,8 +45,7 @@ Deploy
 
 ## Estructura del proyecto
 
-El trabajo está dividido en dos partes iguales, entregadas como dos
-archivos `.zip` independientes:
+El trabajo está dividido en dos partes, dependientes:
 
 ```
 ventas_api/
@@ -56,7 +55,6 @@ ventas_api/
 ├── tests/
 │   └── test_app.py                 ← Parte 1
 ├── Dockerfile                      ← Parte 1
-├── PARTE_1.md                      ← Parte 1
 │
 ├── .github/
 │   └── workflows/
@@ -64,7 +62,6 @@ ventas_api/
 ├── docs/
 │   ├── pipeline_explicado.md       ← Parte 2
 │   └── buenas_practicas.md         ← Parte 2
-└── PARTE_2.md                      ← Parte 2
 ```
 
 ### Parte 1 — Aplicación y Contenerización (`parte1_aplicacion_docker.zip`)
@@ -141,8 +138,4 @@ Deploy) aplica directamente a escenarios de ingeniería de datos: procesos
 ETL, APIs analíticas con FastAPI, procesamiento con Pandas o
 automatización de reportes — todos siguen los mismos principios.
 
-## Documentación adicional
-
-Un notebook (`proyecto_integrador.ipynb`) acompaña este README con una
-explicación paso a paso de todo el flujo, incluyendo la app y la prueba
 ejecutadas en vivo.
